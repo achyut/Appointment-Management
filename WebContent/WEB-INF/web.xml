@@ -20,7 +20,7 @@
 	</filter-mapping>
 	<servlet>
 		<servlet-name>IndexServlet</servlet-name>
-		<servlet-class>uta.mav.appoint.IndexServlet</servlet-class>
+		<servlet-class>uta.mav.appoint.IndexController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>IndexServlet</servlet-name>
@@ -44,7 +44,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>CustomizeServlet</servlet-name>
-		<servlet-class>uta.mav.appoint.CustomizeServlet</servlet-class>
+		<servlet-class>uta.mav.appoint.CustomizeController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>CustomizeServlet</servlet-name>
@@ -60,7 +60,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>AdvisingServlet</servlet-name>
-		<servlet-class>uta.mav.appoint.AdvisingServlet</servlet-class>
+		<servlet-class>uta.mav.appoint.AdvisingController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>AdvisingServlet</servlet-name>
@@ -68,7 +68,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>ScheduleAppointmentServlet</servlet-name>
-		<servlet-class>uta.mav.appoint.ScheduleAppointmentServlet</servlet-class>
+		<servlet-class>uta.mav.appoint.ScheduleAppointmentController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ScheduleAppointmentServlet</servlet-name>
@@ -76,7 +76,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>ViewAppointmentServlet</servlet-name>
-		<servlet-class>uta.mav.appoint.ViewAppointmentServlet</servlet-class>
+		<servlet-class>uta.mav.appoint.ViewAppointmentController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ViewAppointmentServlet</servlet-name>
@@ -84,7 +84,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>AllocateTimeServlet</servlet-name>
-		<servlet-class>uta.mav.appoint.AllocateTimeServlet</servlet-class>
+		<servlet-class>uta.mav.appoint.AllocateTimeController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>AllocateTimeServlet</servlet-name>
@@ -92,7 +92,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>ManageAppointmentServlet</servlet-name>
-		<servlet-class>uta.mav.appoint.ManageAppointmentServlet</servlet-class>
+		<servlet-class>uta.mav.appoint.ManageAppointmentController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ManageAppointmentServlet</servlet-name>
@@ -100,7 +100,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>ManageTimeSlotServlet</servlet-name>
-		<servlet-class>uta.mav.appoint.ManageTimeSlotServlet</servlet-class>
+		<servlet-class>uta.mav.appoint.ManageTimeSlotController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ManageTimeSlotServlet</servlet-name>
@@ -108,7 +108,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>SendEmailServlet</servlet-name>
-		<servlet-class>uta.mav.appoint.SendEmailServlet</servlet-class>
+		<servlet-class>uta.mav.appoint.SendEmailController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>SendEmailServlet</servlet-name>
@@ -116,7 +116,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>SendMeetingServlet</servlet-name>
-		<servlet-class>uta.mav.appoint.SendMeetingServlet</servlet-class>
+		<servlet-class>uta.mav.appoint.SendMeetingController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>SendMeetingServlet</servlet-name>
@@ -124,7 +124,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>CreateAdvisorServlet</servlet-name>
-		<servlet-class>uta.mav.appoint.CreateAdvisorServlet</servlet-class>
+		<servlet-class>uta.mav.appoint.CreateAdvisorController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>CreateAdvisorServlet</servlet-name>
@@ -132,7 +132,7 @@
 	</servlet-mapping>
 		<servlet>
 		<servlet-name>ChangePasswordServlet</servlet-name>
-		<servlet-class>uta.mav.appoint.ChangePasswordServlet</servlet-class>
+		<servlet-class>uta.mav.appoint.ChangePasswordController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ChangePasswordServlet</servlet-name>
@@ -144,7 +144,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>AddAppointmentServlet</servlet-name>
-		<servlet-class>uta.mav.appoint.AddAppointmentServlet</servlet-class>
+		<servlet-class>uta.mav.appoint.AddAppointmentController</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>AssignStudentsServlet</servlet-name>
@@ -152,7 +152,7 @@
 	</servlet-mapping>
 	<servlet>
 		<servlet-name>AssignStudentsServlet</servlet-name>
-		<servlet-class>uta.mav.appoint.AssignStudentsServlet</servlet-class>
+		<servlet-class>uta.mav.appoint.AssignStudentsController</servlet-class>
 	</servlet>
 
 </web-app>
