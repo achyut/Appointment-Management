@@ -10,7 +10,7 @@
 	<%=message%>
 	
 	<%
-	session.invalidate();
+	session.setAttribute("message","");
 }
 	%>
 	</font></label>
